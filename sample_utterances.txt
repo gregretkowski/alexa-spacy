@@ -1,0 +1,3 @@
+Spacy {how are you|rawtext}
+Spacy {help|rawtext}
+Spacy {what time is it|rawtext}

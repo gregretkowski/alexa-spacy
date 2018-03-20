@@ -1,0 +1,33 @@
+{
+  "languageModel": {
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "Spacy",
+        "samples": [
+          "{how are you|rawtext}",
+          "{help|rawtext}",
+          "{what time is it|rawtext}"
+        ],
+        "slots": [
+          {
+            "name": "rawtext",
+            "type": "AMAZON.LITERAL"
+          }
+        ]
+      }
+    ],
+    "invocationName": "spacey demo"
+  }
+}
